@@ -228,7 +228,7 @@ class ShopPage extends StatelessWidget {
                 color: Colors.grey[800],
                 borderRadius: BorderRadius.circular(8),
               ),
-              child: Image.asset(product.imagePath, fit: BoxFit.cover),
+              child: Image.asset(product.imagePath, fit: BoxFit.fitHeight),
             ),
             const SizedBox(height: 12),
             // Product Info
